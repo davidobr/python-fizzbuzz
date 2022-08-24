@@ -1,9 +1,13 @@
+value = ""
 for i in range(1, 101):
     if i % 3 == 0 and i % 5 == 0:
-        print("fizzbuzz")
+        value = "fizzbuzz"
+        print(value)
     elif i % 3 == 0:
-        print("fizz")
+        value = "fizz"
+        print(value)
     elif i % 5 == 0:
-        print("buzz")
+        value = "buzz"
+        print(value)
     else:
         print(i)
